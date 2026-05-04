@@ -1,35 +1,31 @@
 Prompt modificado:
 
-Quiero que crees una web que será una plataforma donde voy a añadir información y videos de los partidos del ADM Liberia que formen parte de un historial organizado por temporadas.
+Quiero que crees una web que va a ser una plataforma donde voy a añadir información y videos de YouTube sobre los partidos del ADM Liberia que formen parte de un historial.
 
-Quiero que a la izquierda aparezca un grid (simulando un árbol de habilidades como el de los videojuegos), pero respecto a los partidos del equipo y sus secciones (temporadas, torneos, partidos ganados, empatados, perdidos, clásicos, etc...).
+Quiero que a la izquierda aparezca un grid (simulando un árbol de habilidades como el de los videojuegos), pero respecto a los partidos del equipo y sus secciones (temporada actual, partidos ganados, empatados, etc...).
 
-Quiero que los partidos salgan como cuadraditos o cubos, apilados encima, debajo, o a los lados (similar al selector de personajes del Street Fighter, debe recordar a ese selector grid) y al seleccionarlo, se vea en grande su información a la derecha. Esta parte los cuadraditos rectos, con esquinas afiladas, como cubos, compactos y que no sean muy grandes. Es importante que esta parte esté hecha con webcomponents para que sea fácil de reutilizar.
+Quiero que las habilidades salgan como cuadraditos o cubos, apilados encima, debajo, o a los lados (Similar al selector de jugadores del street fighter, debe recordar a ese selector grid) y al seleccionarlo, se vea en grande su información a la derecha. Esta parte los cuadraditos rectos, con esquinas afiladas, como cubos, compactos y que no sean muy grandes. Es importante que esta parte esté hecha con webcomponents para que sea facil de reutilizar.
 
 Toda esta parte estará en un menú lateral del lado izquierdo de la página. La página principal estará a la derecha, donde aparecerá el contenido seleccionado.
 
 Ten en cuenta que el contenido es así:
 
-Equipo: ADM Liberia, que incluye varias temporadas.
-Temporada: Agrupa los partidos según el torneo o año.
-Partido: Cada uno de los partidos de una temporada. Cada partido es un cuadradito de los que mencionamos. Al pulsar en el partido, mostramos a la derecha todo el contenido de ese partido.
+Equipo: ADM Liberia, que incluye la temporada actual.
+Temporada: Sección que agrupa los últimos partidos jugados.
+Partido: Cada uno de los partidos de la temporada. Cada partido es un cuadradito de los que mencionamos. Al pulsar en el partido, mostramos a la derecha todo el contenido de ese partido.
 
-Cada partido tiene: un video del resumen o partido completo (YouTube), resultado (ganado, perdido o empatado), marcador, rival, fecha y highlights a minutos específicos.
+Cada partido tiene: un video del partido completo o resumen (YouTube), resultado (ganado, perdido o empatado), marcador, rival, fecha y highlights a minutos específicos.
 
-Opcionalmente puede tener análisis o momentos clave del partido.
+Busca una forma de mostrarlo todo, que sea natural y recordando que todos los partidos tienen highlights.
 
-Momentos clave: Clips o partes destacadas del partido que pueden agrupar varios highlights.
+Quiero que lo hagas en HTML/CSS/JS vanilla y que esten componentizados (webcomponents) sus partes más sensibles a reutilizar, para poder personalizarlo mas tarde y reutilizar al maximo. Estilo moderno, limpio y darkmode con accents indigo y deeppink.
 
-Busca una forma de mostrarlo todo, que sea natural y recordando que todos los partidos tienen highlights, pero puede que no tengan momentos clave adicionales, o puede que sí.
 
-También quiero que se pueda incluir una sección de historia del equipo (logros, ascensos, datos importantes).
-
-Quiero que lo hagas en HTML/CSS/JS vanilla y que estén componentizados (webcomponents) sus partes más sensibles a reutilizar, para poder personalizarlo más tarde y reutilizar al máximo. Estilo moderno, limpio y darkmode con accents indigo y deeppink.
 
 
 Archivo por IA:
 
-<!DOCTYPE html>
+``` <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -183,3 +179,4 @@ customElements.define('main-content', MainContent);
 
 </body>
 </html>
+```
