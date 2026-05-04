@@ -7,28 +7,28 @@ export const data = {
           rival: "Saprissa",
           resultado: "Ganado",
           marcador: "2-1",
-          video: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          video: "https://www.youtube.com/live/x-uAeKFfSnM?si=CvbJntQkwgGcvLon",
           highlights: [{ tiempo: 45, texto: "Gol decisivo" }]
         },
         {
           rival: "Alajuelense",
           resultado: "Ganado",
           marcador: "1-0",
-          video: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          video: "https://www.youtube.com/live/x-uAeKFfSnM?si=CvbJntQkwgGcvLon",
           highlights: [{ tiempo: 30, texto: "Gol" }]
         },
         {
           rival: "Herediano",
           resultado: "Empatado",
           marcador: "1-1",
-          video: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          video: "https://www.youtube.com/live/x-uAeKFfSnM?si=CvbJntQkwgGcvLon",
           highlights: [{ tiempo: 60, texto: "Empate" }]
         },
         {
           rival: "Cartaginés",
           resultado: "Ganado",
           marcador: "3-2",
-          video: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          video: "https://www.youtube.com/live/x-uAeKFfSnM?si=CvbJntQkwgGcvLon",
           highlights: [{ tiempo: 75, texto: "Gol final" }]
         }
       ]

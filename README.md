@@ -1,4 +1,6 @@
-Prompt modificado:
+# ADM Liberia - Historial de Partidos
+
+## Prompt modificado
 
 Quiero que crees una web que va a ser una plataforma donde voy a añadir información y videos de YouTube sobre los partidos del ADM Liberia que formen parte de un historial.
 
@@ -10,9 +12,9 @@ Toda esta parte estará en un menú lateral del lado izquierdo de la página. La
 
 Ten en cuenta que el contenido es así:
 
-Equipo: ADM Liberia, que incluye la temporada actual.
-Temporada: Sección que agrupa los últimos partidos jugados.
-Partido: Cada uno de los partidos de la temporada. Cada partido es un cuadradito de los que mencionamos. Al pulsar en el partido, mostramos a la derecha todo el contenido de ese partido.
+Equipo: ADM Liberia, que incluye la temporada actual.  
+Temporada: Sección que agrupa los últimos partidos jugados.  
+Partido: Cada uno de los partidos de la temporada. Cada partido es un cuadradito de los que mencionamos. Al pulsar en el partido, mostramos a la derecha todo el contenido de ese partido.  
 
 Cada partido tiene: un video del partido completo o resumen (YouTube), resultado (ganado, perdido o empatado), marcador, rival, fecha y highlights a minutos específicos.
 
@@ -20,12 +22,12 @@ Busca una forma de mostrarlo todo, que sea natural y recordando que todos los pa
 
 Quiero que lo hagas en HTML/CSS/JS vanilla y que esten componentizados (webcomponents) sus partes más sensibles a reutilizar, para poder personalizarlo mas tarde y reutilizar al maximo. Estilo moderno, limpio y darkmode con accents indigo y deeppink.
 
+---
 
+## 🤖 Código generado por IA
 
-
-Archivo por IA:
-
-``` <!DOCTYPE html>
+```html
+<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -179,4 +181,3 @@ customElements.define('main-content', MainContent);
 
 </body>
 </html>
-```
